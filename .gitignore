@@ -1,0 +1,64 @@
+# Go (Golang)
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Ignore /bin and /vendor directories for Go projects
+/bin/
+/vendor/
+
+# Ignore .env file
+.env
+
+# React
+# See https://github.com/facebook/create-react-app/blob/master/.gitignore
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# eslint
+/eslint-cache
+/.eslintcache
+
+# Logs
+/logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
